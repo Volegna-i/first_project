@@ -1,0 +1,48 @@
+html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.siteContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-bottom: 1px solid rgba(217, 255, 245, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.header__divaider1, .header__divaider3, .header__group2 {
+    display: none;
+}
+
+.burgerButton, .repairButton, .checkstatusButton {
+    background-color: white;
+    border: 2px solid white;
+}
+
+.repairButton p, .checkstatusButton p {
+    display: none;
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid rgb(189, 255, 237);
+    border-radius: 6px 6px 6px 6px;
+}
+
+.header__divaider2 {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
