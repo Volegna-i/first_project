@@ -75,6 +75,22 @@ button:hover {
     justify-content: space-between;
 }
 
+.pageTitle__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.pageTitle__container h1 {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+}
+
+.highlight {
+    margin-right: 12px;
+}
+
 
 @media (min-width: 768px) {
 
@@ -180,6 +196,10 @@ button:hover {
     .repairButton img,
     .checkstatusButton img {
         padding-left: 8px;
+    }
+
+    .pageTitle__container {
+        margin-top: 25px;
     }
 
 }
