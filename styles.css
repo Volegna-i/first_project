@@ -23,11 +23,20 @@ html, body {
     align-items: center;
 }
 
-.header__divaider1, .header__divaider3, .header__group2 {
+.header__divaider1,
+.header__divaider3,
+.header__group2,
+.imageBox_normal,
+.imageBox_big {
     display: none;
 }
 
-.burgerButton, .repairButton, .checkstatusButton {
+.burgerButton,
+.repairButton,
+.checkstatusButton,
+.callButton,
+.chatButton,
+.profileButton {
     background-color: white;
     border: 2px solid white;
 }
@@ -45,4 +54,64 @@ button:hover {
 .header__divaider2 {
     margin-left: 20px;
     padding-bottom: 5px;
+}
+
+.header__group1 {
+    display: flex;
+    margin-left: 16px;
+}
+
+.header__group3 {
+    margin-right: 16px;
+}
+
+
+@media (min-width: 768px) {
+
+    .header__container {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border-bottom: 1px solid rgba(217, 255, 245, 1);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        height: 57px;
+    }
+    
+    .header__group1 {
+        display: flex;
+        margin-left: 24px;
+        flex-direction: row;
+        flex-grow: 9;
+    }
+    
+    .header__group2 {
+        display: flex;
+        justify-content: right;
+    }
+
+    .header__group2 button {
+		display: flex;
+	}
+
+    .header__divaider1 {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .header__divaider3 {
+        display: flex;
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+
+    .header__divaider2 {
+        display: none;
+    }
+
+
 }
