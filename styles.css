@@ -141,8 +141,6 @@ button:hover {
     margin-left: 16px;
     margin-right: 16px;
     margin-bottom: 16px;
-    width: 288px;
-    height: 88px;
 }
 
 .text_hidden, .text_superHidden {
@@ -227,7 +225,7 @@ button:hover {
         padding-left: 24px;
     }
 
-    
+
 
 
 }
