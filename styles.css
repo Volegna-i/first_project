@@ -330,7 +330,7 @@ button:hover {
     }
 
     .pageTitle__container {
-        margin-top: 25px;
+        margin-top: 41px;
     }
 
     .pageMenu__container {
@@ -349,5 +349,27 @@ button:hover {
 		margin: 0;
 		padding: 0;
 	}
+
+    .imageBox_normal {
+        display: none;
+    }
+
+    .imageBox_big {
+        display: flex;
+    }
+
+    .text {
+        margin-left: 34px;
+        margin-right: 36px;
+        margin-bottom: 14px;
+    }
+
+    .text_superHidden {
+        display: contents;
+    }
+
+    .pageMenu__container {
+        margin-bottom: 16px;
+    }
 
 }
