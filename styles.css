@@ -132,15 +132,19 @@ button:hover {
 	
 }
 
+.text {
+    margin: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
 .text_visible {
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.20000000298023224px;
     text-align: left;
     margin: 0;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 16px;
 }
 
 .text_hidden, .text_superHidden {
@@ -158,11 +162,13 @@ button:hover {
 
 .readMoreButton p {
     font-size: 16px;
+    color: black;
     line-height: 24px;
     letter-spacing: -0.20000000298023224px;
     text-align: left;
     margin: 0;
     margin-left: 8px;
+    padding-right: 10px;
 }
 
 .imageBox_small {
@@ -230,8 +236,45 @@ button:hover {
         padding-left: 24px;
     }
 
+    .imageBox_small {
+        display: none;
+    }
 
+    .textImageBox__container {
+        display: flex;
+        flex-direction: row;
+    }
 
+    .imageBox {
+        display: flex;
+        justify-content: right;
+    }
+
+    .imageBox_normal {
+        display: flex;
+        margin-right: 25px;
+        border-radius: 6px 6px 6px 6px;
+    }
+
+    .text {
+        margin-left: 24px;
+        margin-right: 48px;
+    }
+
+    .text_visible {
+        margin-bottom: 16px;
+
+    }
+
+    .text_hidden {
+        display: contents;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: left;
+        margin: 0;
+        margin-bottom: 10px;
+    }
 
 }
 
