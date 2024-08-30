@@ -21,7 +21,7 @@ button {
 .asideBarMenu {
     display: flex;
     flex-direction: column;
-    width: 320px;
+    width: 296px;
     height: 100%;
     left: 0;
     position: fixed;
@@ -97,4 +97,54 @@ p {
 
 .languages__button {
     margin-right: 7px;
+}
+
+.highlight {
+    position: absolute;
+    width: 4px;
+    height: 32px;
+    opacity: 0px;
+    left: 1px;
+    opacity: 0;
+}
+
+.menu__link:hover p {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.menu__link:hover .highlight {
+    opacity: 1;
+}
+
+.menu__link p {
+    padding-top: 7px;
+}
+
+.burgerButton,
+.searchButton,
+.callButton,
+.chatButton,
+.profileButton,
+.languages__button {
+	background-color: white;
+	border: none;
+	border-radius: 6px 6px 6px 6px;
+	cursor: pointer;
+}
+
+.burgerButton:hover,
+.searchButton:hover,
+.callButton:hover,
+.chatButton:hover,
+.profileButton:hover {
+  background-color: white; 
+  filter: hue-rotate(-160deg);
+  transition-duration: 0.1s;
+}
+
+.languages__button:hover {
+	background-color: white; 
+	transition-duration: 0.5s;
+	filter: opacity(0.5); 
 }
