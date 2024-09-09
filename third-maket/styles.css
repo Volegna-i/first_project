@@ -46,7 +46,7 @@ body {
 }
 
 .title {
-    font-weight: 500;
+	font-family: TT Lakes-Thin, Arial, Helvetica, sans-serif;
     color: rgba(126, 126, 130, 1);
 	font-size: 16px;
 	letter-spacing: -0.20000000298023224px;
@@ -57,6 +57,12 @@ body {
 
 
 .showAll {
+	font-family: TT Lakes, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: -0.20000000298023224px;
+	text-align: left;
 	background-color: #F8F8F8;
 	border: 2px solid #F8F8F8;
 	display: flex;
