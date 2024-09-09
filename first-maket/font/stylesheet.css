@@ -87,7 +87,7 @@
 }
 
 @font-face {
-    font-family: 'TT Lakes-Thin';
+    font-family: 'TT Lakes';
     src: url('TTLakes-Thin.eot');
     src: local('TT Lakes Thin'), local('TTLakes-Thin'),
         url('TTLakes-Thin.eot?#iefix') format('embedded-opentype'),
@@ -362,7 +362,7 @@
 }
 
 @font-face {
-    font-family: 'TT Lakes-Medium';
+    font-family: 'TT Lakes';
     src: url('TTLakes-Medium.eot');
     src: local('TT Lakes Medium'), local('TTLakes-Medium'),
         url('TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
