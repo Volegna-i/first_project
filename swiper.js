@@ -26,19 +26,11 @@ window.addEventListener('DOMContentLoaded', () => {
       checker();
     }
   
-    const someFunc = (instance) => {
-      if (instance) {
-        instance.on('slideChange', function (e) {
-          console.log('*** mySwiper.activeIndex', instance.activeIndex);
-        });
-      }
-    };
-  
     resizableSwiper(
       '(max-width: 767px)',
       '.slider',
       {
-        spaceBetween: 30, 
+        spaceBetween: 10, 
         loop: false, 
         autoHeight: true, 
         width: 200, 
