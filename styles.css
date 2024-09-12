@@ -111,6 +111,19 @@ body {
 		width: 200px;
 	}
 
+	.toggleVisibility {
+		height: 160px;
+		overflow: hidden;
+	}
+
+}
+
+@media (min-width: 1404px) {
+
+	.toggleVisibility {
+		height: 70px;
+		overflow: hidden;
+	}
 }
 
 .menu__button-img:hover {
