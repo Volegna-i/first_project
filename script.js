@@ -10,11 +10,11 @@ function updateVisibleElements() {
 }
 
 function hideElements() {  
-  for (let i = 0; i < elements.length; i++) {  
-    if (i >= maxVisibleElements) {  
-      elements[i].classList.add('hidden');  
+  for (let elem = 0; elem < elements.length; elem++) {  
+    if (elem >= maxVisibleElements) {  
+      elements[elem].classList.add('hidden');  
     } else {
-      elements[i].classList.remove('hidden');
+      elements[elem].classList.remove('hidden');
     }  
   }  
   showAllButton.textContent = 'Показать все';  
@@ -22,15 +22,15 @@ function hideElements() {
 
 function showElements() {
     if (showAllButton.textContent === 'Показать все') {
-      for (let i = 0; i < elements.length; i++) {
-        elements[i].classList.remove('hidden');
+      for (let elem = 0; elem < elements.length; elem++) {
+        elements[elem].classList.remove('hidden');
       }
       showAllButton.textContent = 'Скрыть';
       showAllButton.classList.add('show-hidden');
     } else {
-      for (let i = 0; i < elements.length; i++) {
-        if (i >= maxVisibleElements) {
-          elements[i].classList.add('hidden');
+      for (let elem = 0; elem < elements.length; elem++) {
+        if (elem >= maxVisibleElements) {
+          elements[elem].classList.add('hidden');
         }
       }
       showAllButton.textContent = 'Показать все';

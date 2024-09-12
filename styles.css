@@ -38,7 +38,7 @@ body {
 	transform: translateY(-50%);
 }
 
-.menu__button_img {
+.menu__button-img {
 	height: 35px;
 	position: absolute;
 	right: 20px;
@@ -106,14 +106,14 @@ body {
 	}
 		
 	.menu__item {
-		height: 50px !important;
-		margin: 10px 5px !important;
-		width: 200px !important;
+		height: 50px;
+		margin: 10px 5px;
+		width: 200px;
 	}
 
 }
 
-.menu__button_img:hover {
+.menu__button-img:hover {
 	transform: scale(1.5);
 	transition-duration: 0.5s;
 }
@@ -123,5 +123,5 @@ ul {
 }
 
 .hidden {
-	display: none !important;
+	display: none;
 }
