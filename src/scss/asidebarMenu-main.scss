@@ -1,0 +1,34 @@
+.asidebarMenu-main-menu__list {
+  padding: 0px;
+  margin-top: 46px;
+  list-style-type: none;
+}
+
+.asidebarMenu-main-menu__link {
+  display: block;
+  color: rgba(27, 28, 33, 1);
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+.highlight {
+  position: absolute;
+  width: 4px;
+  height: 32px;
+  opacity: 0px;
+  left: 1px;
+  opacity: 0;
+}
+
+.asidebarMenu-main-menu__link:hover p {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.asidebarMenu-main-menu__link:hover .highlight {
+  opacity: 1;
+}
+
+.asidebarMenu-main-menu__link p {
+  padding-top: 7px;
+}

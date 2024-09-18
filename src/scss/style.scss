@@ -1,0 +1,25 @@
+@import 'asidebarMenu.scss';
+@import 'asidebarMenu-main.scss';
+@import 'asidebarMenu-buttons.scss';
+@import 'asidebarMenu-footer.scss';
+
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Regular.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 1);
+  font-family: TT Lakes, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: rgba(27, 28, 33, 1);
+}
