@@ -1,5 +1,6 @@
 .asidebarMenu-footer {
   margin-top: auto;
+  padding-bottom: 20px;
 }
 
 .contacts {
@@ -19,6 +20,8 @@
 .mail,
 .telefone {
   margin: 0;
+  text-decoration: none;
+  color: black;
 }
 
 .mail {
