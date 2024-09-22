@@ -1,0 +1,129 @@
+.brandSection__header {
+	background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+  border-top: 3px solid rgba(217, 255, 245, 1);
+}
+
+.swiper-wrapper {
+	min-height: 100%;
+	padding: 30px;
+}
+
+.brandSection__menu__item img {
+	max-width: 70%;
+}
+
+.brandSection__menuBox {
+	background: #F8F8F8;
+	min-width: 0;
+}
+
+.brandSection__menu__item {
+	background-color: white;
+	border: 2px solid rgba(234, 234, 234, 1);
+	border-radius: 6px;
+	min-height: 50px;
+	padding: 10px;
+}
+
+.brandSection__menu__logo {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.brandSection__menu__button-img {
+	height: 35px;
+	position: absolute;
+	right: 20px;
+	top: 18px;
+}
+
+.brandSection__title {
+  text-transform: uppercase;
+  color: rgba(126, 126, 130, 1);
+	font-size: 16px;
+	letter-spacing: -0.20000000298023224px;
+	line-height: 24px;
+	padding: 20px;
+	text-align: left;
+}
+
+
+.brandSection__showAll {
+	font-family: TT Lakes, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: -0.20000000298023224px;
+	text-align: left;
+	background-color: #F8F8F8;
+	border: 2px solid #F8F8F8;
+	display: flex;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	margin-left: 40px;
+	padding: 20px;
+}
+
+@media (max-width: 767px) {
+	.brandSection__showAll {
+		display: none;
+	}
+}
+
+.brandSection__showAll:hover {
+	background-color: white;
+	border: 2px solid #D9FFF5;
+	border-radius: 6px;
+}
+
+.brandSection__showAll::before {
+	color: #41F6D7;
+	content: "❯❯";
+	margin-right: 5px;
+	rotate: 90deg;
+	transition: transform 0.5s ease;
+}
+
+.brandSection__showAll.show-hidden::before {
+	transform: rotate(180deg);
+}
+
+@media (min-width: 768px) {
+	
+	.brandSection__menu {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+		
+	.brandSection__menu__item {
+		height: 50px;
+		margin: 10px 5px;
+		width: 200px;
+	}
+
+	.brandSection--hide {
+		height: 160px;
+		overflow: hidden;
+	}
+
+}
+
+@media (min-width: 1404px) {
+
+	.brandSection--hide {
+		height: 70px;
+		overflow: hidden;
+	}
+}
+
+.brandSection__menu__button-img:hover {
+	transform: scale(1.5);
+	transition-duration: 0.5s;
+}
+
+.brandSection__menu {
+	margin-bottom: 30px;
+}

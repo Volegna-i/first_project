@@ -1,3 +1,7 @@
+.main_container {
+  background-color: #F8F8F8;
+}
+
 .imageBox_normal,
 .imageBox_big {
   display: none;
@@ -79,6 +83,7 @@
 }
 
 .readMoreButton {
+  background: white;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -153,7 +158,7 @@
 
 }
 
-@media (min-width : 1120px) {
+@media (min-width : 1440px) {
 
   .pageTitle__container {
     margin-top: 41px;
@@ -196,6 +201,10 @@
 
   .pageMenu__container {
     margin-bottom: 16px;
+  }
+
+  .readMoreButton {
+    display: none;
   }
 
 }

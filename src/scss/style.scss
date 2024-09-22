@@ -1,6 +1,9 @@
 @import 'bodySiteContainer.scss';
 @import 'bodyHeader.scss';
 @import 'bodyMain.scss';
+@import 'brandSectionSwiper.scss';
+@import 'typeSectionSwiper.scss';
+@import 'priceSectionSwiper.scss';
 
 
 @font-face {
@@ -14,7 +17,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: rgba(255, 255, 255, 1);
   font-family: TT Lakes, Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 24px;
