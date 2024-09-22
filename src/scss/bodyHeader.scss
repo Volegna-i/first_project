@@ -35,7 +35,12 @@
   display: none;
 }
 
-button:hover {
+.burgerButton:hover,
+.repairButton:hover,
+.checkstatusButton:hover,
+.callButton:hover,
+.chatButton:hover,
+.profileButton:hover {
   background-color: white;
   border: 2px solid rgb(189, 255, 237);
   border-radius: 6px 6px 6px 6px;
@@ -113,7 +118,7 @@ button:hover {
 
 }
 
-@media (min-width : 1440px) {
+@media (min-width : 1366px) {
 
   .header__group1,
   .header__group2,
@@ -141,6 +146,7 @@ button:hover {
 		flex-direction: column;
 		justify-content: flex-end;
 		border: none;
+    background-color: #f8f8f8;
 	}
 
   .repairButton,
@@ -149,19 +155,18 @@ button:hover {
     flex-direction: row;
     align-items: center;
     margin-left: 32px;
-  }
-
-  .repairButton p,
-  .checkstatusButton p {
-    display: flex;
-		font-size: 16px;
-		letter-spacing: -0.2px;
-		line-height: 24px;
-  }
-    
-  .repairButton img,
-  .checkstatusButton img {
-    padding-left: 8px;
+    background-color: #f8f8f8;
+    border: 2px solid #f8f8f8;
+    p {
+      font-family: TT Lakes, Arial, Helvetica, sans-serif;
+      display: flex;
+      font-size: 16px;
+      letter-spacing: -0.2px;
+      line-height: 24px;
+    }
+    img {
+      padding-left: 8px;
+    }
   }
 
 }

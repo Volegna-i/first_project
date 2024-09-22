@@ -1,0 +1,158 @@
+.asideMenu {
+  display: flex;
+  flex-direction: column;
+  width: 296px;
+  height: 100%;
+  left: -360px;
+  position: fixed;
+  box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2);
+  padding-left: 24px;
+  z-index: 999;
+  background-color: white;
+}
+
+.asideMenu__header__burgerButton--close,
+.asideMenu__header__searchButton,
+.asideMenu__footer__callButton,
+.asideMenu__footer__chatButton,
+.asideMenu__footer__profileButton,
+.asideMenu__footer__languages__button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.asideMenu__header__buttons {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-right: 24px;
+  padding-top: 19px;
+}
+
+.asideMenu__header__searchButton {
+  margin-left: auto;
+}
+
+.asideMenu__header__logo {
+  margin-left: 17px;
+}
+
+.asideMenu__menu__list {
+  padding: 0px;
+  margin-top: 46px;
+  list-style-type: none;
+}
+
+.asideMenu__menu__link {
+  display: block;
+  color: rgba(27, 28, 33, 1);
+  text-decoration: none;
+  margin-bottom: 32px;
+}
+
+.asideMenu__footer {
+  margin-top: auto;
+}
+
+.asideMenu__footer__contacts {
+  font-style: normal;
+  p {
+    margin: 0;
+  }
+}
+
+.asideMenu__footer__telefone {
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.6000000238418579px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.asideMenu__footer__mail {
+  margin-bottom: 12px;
+}
+
+.asideMenu__footer__buttons {
+  margin-bottom: 16px;
+}
+
+.asideMenu__footer__callButton,
+.asideMenu__footer__chatButton,
+.asideMenu__footer__profileButton {
+  margin-right: 16px;
+}
+
+.asideMenu__footer__languages__button {
+  margin-right: 7px;
+}
+
+.asideMenu__menu__highlight {
+  position: absolute;
+  width: 4px;
+  height: 32px;
+  opacity: 0px;
+  left: 1px;
+  opacity: 0;
+}
+
+.asideMenu__menu__link:hover p {
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.asideMenu__menu__link:hover .asideMenu__menu__highlight {
+  opacity: 1;
+}
+
+.asideMenu__menu__link p {
+  padding-top: 7px;
+}
+
+.asideMenu__header__burgerButton--close,
+.asideMenu__header__searchButton,
+.asideMenu__footer__callButton,
+.asideMenu__footer__chatButton,
+.asideMenu__footer__profileButton,
+.asideMenu__footer__languages__button {
+	background-color: white;
+	border: 0;
+	border-radius: 6px 6px 6px 6px;
+	cursor: pointer;
+}
+
+.asideMenu__header__burgerButton--close:hover,
+.asideMenu__header__searchButton:hover,
+.asideMenu__footer__callButton:hover,
+.asideMenu__footer__chatButton:hover,
+.asideMenu__footer__profileButton:hover {
+  background-color: white; 
+  filter: hue-rotate(-160deg);
+  transition-duration: 0.1s;
+}
+
+.asideMenu__footer__languages__button:hover {
+	background-color: white; 
+	transition-duration: 0.5s;
+	filter: opacity(0.5); 
+}
+
+
+.aside--active {
+	left: 0px;
+	transition-duration: 0.5s;
+}
+
+@media (min-width: 1366px) {
+  .asideMenu {
+    left: 0px;
+    box-shadow: none;
+  }
+
+  .asideMenu__header__burgerButton--close {
+    display: none;
+  }
+}

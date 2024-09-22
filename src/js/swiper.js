@@ -31,7 +31,7 @@ window.addEventListener('DOMContentLoaded', () => {
       '.brandSection__slider',
       {
         spaceBetween: 10, 
-        loop: false, 
+        loop: true, 
         autoHeight: true, 
         width: 200, 
         centerInsufficientSlides: true,
@@ -48,7 +48,7 @@ window.addEventListener('DOMContentLoaded', () => {
       '.typeSection__slider',
       {
         spaceBetween: 10, 
-        loop: false, 
+        loop: true, 
         autoHeight: true, 
         width: 200, 
         centerInsufficientSlides: true,
@@ -64,9 +64,9 @@ window.addEventListener('DOMContentLoaded', () => {
       '(max-width: 767px)',
       '.priceSection__slider',
       {
-        spaceBetween: 10, 
-        loop: false, 
-        autoHeight: true, 
+        spaceBetween: 30, 
+        loop: true,
+        height: 100,
         width: 200, 
         centerInsufficientSlides: true,
         pagination: { 

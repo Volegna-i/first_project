@@ -7,3 +7,121 @@
 	padding: 20px;
 	text-align: left;
 }
+
+@media (max-width: 767px) {
+	.priceSection__menu__item {
+		background-color: #FFFFFF;
+    border: 2px solid rgba(234, 234, 234, 1);
+    border-radius: 6px;
+    padding-left: 5px;
+    min-height: 200px;
+    width: 220px;
+		p {
+			font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.20000000298023224px;
+      text-align: left;
+      padding: 0;
+      margin: 7px 0;
+		}
+	}
+
+	.priceSection__menu__itemTitle {
+		display: none;
+	}
+
+	.priceSection__menu__button-img {
+		height: 30px;
+  	width: 90px;
+	}
+
+	.priceSection__menu__textMobile {
+		color: #7E7E82;
+	}
+
+	.priceSection__menu__button {
+		position: absolute;
+    bottom: 10px;
+    right: 20px;
+	}
+
+	.priceSection__menu__button:hover {
+		filter: hue-rotate(150deg);
+    transition-duration: 0.5s;
+	}
+}
+
+@media (min-width: 768px) {
+	.priceSection__menu {
+		display: flex;
+		flex-direction: column;
+		width: 90vw;
+		margin-right: 50px;
+	}
+
+	.priceSection__menu__item {
+		background-color: #FFFFFF;
+		display: flex;
+		flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+		p:nth-child(2) {
+			flex-basis: 50%;
+			text-align: left;
+		}
+		p:not(:nth-child(2)) {
+			flex-basis: 12.5%;
+			text-align: center;
+		}
+	}
+
+	.priceSection__menu__itemTitle {
+		background-color: #F8F8F8;
+	}
+
+	.priceSection__menu__textMobile {
+		display: none;
+	}
+
+	.priceSection__menu__buttonTitle {
+		visibility: hidden;
+	}
+
+	.priceSection__menu__button {
+		position: static;
+		flex-basis: 12.5%;
+		text-align: right;
+	}
+
+	.priceSection__menu__button:hover {
+		filter: hue-rotate(150deg);
+    transition-duration: 0.5s;
+	}
+}
+
+@media (min-width: 1023px) {
+	.priceSection__menu {
+		width: 90vw;
+	}
+
+	.priceSection__menu__item {
+		height: 50px;
+		width: 92vw;
+	}
+}
+
+@media (min-width: 1600px) {
+	.priceSection__menu {
+		width: 90vw;
+	}	
+
+	.priceSection__menu__item {
+		height: 50px;
+		width: 60vw;
+	}
+}

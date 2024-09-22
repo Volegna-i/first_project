@@ -1,0 +1,12 @@
+.siteContainer {
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1366px) {
+  .siteContainer{
+    padding-left: 340px;
+  }
+}

@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #7E7E82;
+  justify-content: space-evenly;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
