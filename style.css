@@ -216,23 +216,39 @@
   display: none; }
 
 .readMoreButton {
-  background: white;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  border: 2px solid white;
-  margin-left: 16px;
-  margin-bottom: 16px; }
-
-.readMoreButton p {
+  font-family: TT Lakes, Arial, Helvetica, sans-serif;
   font-size: 16px;
-  color: black;
+  font-weight: 1000;
   line-height: 24px;
   letter-spacing: -0.20000000298023224px;
   text-align: left;
+  background-color: #F8F8F8;
+  border: 2px solid #F8F8F8;
+  display: flex;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 40px;
+  padding: 20px; }
+
+.readMoreButton p {
+  color: black;
   margin: 0;
-  margin-left: 8px;
-  padding-right: 10px; }
+  padding-left: 10px; }
+
+.readMoreButton:hover {
+  background-color: white;
+  border: 2px solid #D9FFF5;
+  border-radius: 6px; }
+
+.readMoreButton::before {
+  color: #41F6D7;
+  content: "❯❯";
+  margin-right: 5px;
+  rotate: 90deg;
+  transition: transform 0.5s ease; }
+
+.readMoreButton.rotate::before {
+  transform: rotate(180deg); }
 
 .imageBox_small {
   object-fit: cover;
@@ -249,9 +265,6 @@
   .textImageBox__container {
     display: flex;
     flex-direction: row; }
-  .imageBox {
-    display: flex;
-    justify-content: right; }
   .imageBox_normal {
     display: flex;
     margin-right: 25px;
@@ -301,6 +314,12 @@
   .readMoreButton {
     display: none; } }
 
+.hiddenText {
+  display: none; }
+
+.showText {
+  display: contents; }
+
 .brandSection__header {
   background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
   border-top: 3px solid #d9fff5; }
@@ -346,7 +365,7 @@
 .brandSection__showAll {
   font-family: TT Lakes, Arial, Helvetica, sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 1000;
   line-height: 24px;
   letter-spacing: -0.20000000298023224px;
   text-align: left;
@@ -354,7 +373,6 @@
   border: 2px solid #F8F8F8;
   display: flex;
   font-size: 20px;
-  font-weight: 500;
   line-height: 24px;
   margin-left: 40px;
   padding: 20px; }
@@ -406,7 +424,7 @@
 .brandSection__showBrand,
 .brandSection__hideBrand {
   margin: 0;
-  padding: 0; }
+  padding-left: 10px; }
 
 .hiddenText {
   display: none; }
@@ -460,7 +478,7 @@
 .typeSection__showAll {
   font-family: TT Lakes, Arial, Helvetica, sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 1000;
   line-height: 24px;
   letter-spacing: -0.20000000298023224px;
   text-align: left;
@@ -468,7 +486,6 @@
   border: 2px solid #F8F8F8;
   display: flex;
   font-size: 20px;
-  font-weight: 500;
   line-height: 24px;
   margin-left: 40px;
   padding: 20px; }
@@ -520,7 +537,7 @@
 .typeSection__showType,
 .typeSection__hideType {
   margin: 0;
-  padding: 0; }
+  padding-left: 10px; }
 
 .hiddenText {
   display: none; }
