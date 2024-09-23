@@ -52,7 +52,7 @@
 .brandSection__showAll {
 	font-family: TT Lakes, Arial, Helvetica, sans-serif;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 1000;
 	line-height: 24px;
 	letter-spacing: -0.20000000298023224px;
 	text-align: left;
@@ -60,7 +60,6 @@
 	border: 2px solid #F8F8F8;
 	display: flex;
 	font-size: 20px;
-	font-weight: 500;
 	line-height: 24px;
 	margin-left: 40px;
 	padding: 20px;
@@ -131,7 +130,7 @@
 .brandSection__showBrand,
 .brandSection__hideBrand {
 	margin: 0;
-	padding: 0;
+	padding-left: 10px;
 }
 
 .hiddenText {

@@ -5,5 +5,6 @@ import './typeSectionShowAll.js';
 import './asideMenu.js'
 import './callback.js'
 import './feedback.js'
+import './readmoreButton.js'
 
 console.log('Works!')
