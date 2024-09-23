@@ -610,6 +610,11 @@
     height: 50px;
     width: 92vw; } }
 
+@media (min-width: 1366px) {
+  .priceSection__menu__item {
+    height: 50px;
+    width: 60vw; } }
+
 @media (min-width: 1600px) {
   .priceSection__menu {
     width: 90vw; }
