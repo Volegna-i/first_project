@@ -403,6 +403,14 @@
 .brandSection__menu {
   margin-bottom: 30px; }
 
+.brandSection__showBrand,
+.brandSection__hideBrand {
+  margin: 0;
+  padding: 0; }
+
+.hiddenText {
+  display: none; }
+
 .typeSection__menu__text {
   font-size: 20px;
   line-height: 24px;
@@ -508,6 +516,14 @@
 
 .typeSection__menu {
   margin-bottom: 30px; }
+
+.typeSection__showType,
+.typeSection__hideType {
+  margin: 0;
+  padding: 0; }
+
+.hiddenText {
+  display: none; }
 
 .priceSection__title {
   text-transform: uppercase;
