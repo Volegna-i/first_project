@@ -6,10 +6,12 @@ export default function showCallback() {
   const callbackCloseButton = document.querySelector('.callback__close-button');
   const callback = document.querySelector('.callback');
   const aside = document.querySelector('.asideMenu');
+  const bodyScroll = document.querySelector('body');
 
   headerCallbackButton.addEventListener ('click', () => {
     callback.classList.toggle('callback--active');
     siteContainer.classList.toggle('body--opacity');
+    bodyScroll.classList.toggle('aside--active');
   });
 
   asideCallbackButton.addEventListener ('click', () => {
@@ -17,12 +19,14 @@ export default function showCallback() {
     aside.classList.toggle('aside--active');
     if (window.matchMedia('(min-width: 1366px)').matches) {
       siteContainer.classList.toggle('body--opacity');
+      bodyScroll.classList.toggle('aside--active');
     };
   });
 
   callbackCloseButton.addEventListener ('click', () => {
     callback.classList.toggle('callback--active');
     siteContainer.classList.toggle('body--opacity');
+    bodyScroll.classList.toggle('aside--active');
   });
 
 };
