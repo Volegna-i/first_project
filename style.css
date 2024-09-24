@@ -733,7 +733,7 @@
   color: black;
   text-decoration: none;
   display: inline-block;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.6000000238418579px;
@@ -812,6 +812,9 @@
     box-shadow: none; }
   .asideMenu__header__burgerButton--close {
     display: none; } }
+
+.asideMenu__footer__languages {
+  margin-bottom: 20px; }
 
 .siteContainer {
   background-color: #f8f8f8;
