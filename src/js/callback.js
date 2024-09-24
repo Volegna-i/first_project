@@ -15,6 +15,9 @@ export default function showCallback() {
   asideCallbackButton.addEventListener ('click', () => {
     callback.classList.toggle('callback--active');
     aside.classList.toggle('aside--active');
+    if (window.matchMedia('(min-width: 1366px)').matches) {
+      siteContainer.classList.toggle('body--opacity');
+    };
   });
 
   callbackCloseButton.addEventListener ('click', () => {

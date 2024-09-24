@@ -15,6 +15,9 @@ export default function showFeedback() {
   asideFeedbackButton.addEventListener ('click', () => {
     feedback.classList.toggle('feedback--active');
     aside.classList.toggle('aside--active');
+    if (window.matchMedia('(min-width: 1366px)').matches) {
+      siteContainer.classList.toggle('body--opacity');
+    };
   });
 
   feedbackCloseButton.addEventListener ('click', () => {
