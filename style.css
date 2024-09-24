@@ -814,7 +814,8 @@
     display: none; } }
 
 .asideMenu__footer__languages {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  color: black; }
 
 .siteContainer {
   background-color: #f8f8f8;
